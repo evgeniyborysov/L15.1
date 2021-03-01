@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		"@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');\n\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box; }\n\nbody {\n    font-family: 'Raleway', sans-serif; }\n\n.home_container {\n    background-image: url(\"../img/hero/hero_img.jpg\");\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: cover; }\n\n.about_container {\n    background-color: #00c4c4; }\n\n.header_container {\n    display: flex;\n    justify-content: space-around; }\n\n.about_img {\n    max-width: 650;\n    background-image: url(\"../img/hero/hero_img.jpg\");\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: cover; }\n"
+	],
+	"names": [],
+	"mappings": "AAAA,OAAO,CAAC,qFAAI;;AAEZ,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CAAG;;;AAE7B,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,qBAAqB;CAAG;;;AAEzC,AAAA,eAAe,CAAC;EACZ,gBAAgB,EAAE,+BAA+B;EACjD,mBAAmB,EAAE,MAAM;EAC3B,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,KAAK;CAAG;;;AAE7B,AAAA,gBAAgB,CAAC;EACb,gBAAgB,EAAE,OAAO;CAAG;;;AAEhC,AAAA,iBAAiB,CAAC;EACd,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;CAAG;;;AAEpC,AAAA,UAAU,CAAC;EACP,SAAS,EAAE,GAAG;EACd,gBAAgB,EAAE,+BAA+B;EACjD,mBAAmB,EAAE,MAAM;EAC3B,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,KAAK;CAAG"
+}
